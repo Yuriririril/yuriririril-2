@@ -1,0 +1,30 @@
+/* DEFAULT SETTINGS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.6rem Arial;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+li {
+  list-style: none;
+}
