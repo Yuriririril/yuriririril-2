@@ -1,0 +1,27 @@
+.header {
+  padding: 2rem 0;
+  margin: 0 10rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid white;
+}
+
+.header__home {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.header__options {
+  display: flex;
+  align-items: flex-end;
+}
+
+.header__option {
+  font-family: "ubuntu-light";
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+.header__option:hover {
+  color: rgb(33, 124, 199);
+}
