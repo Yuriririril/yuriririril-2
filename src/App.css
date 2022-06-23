@@ -21,6 +21,7 @@ html {
 }
 
 body {
+  padding: 0 15rem; 
   font: 1.6rem "ubuntu";
   height: 100%;
   color: white;

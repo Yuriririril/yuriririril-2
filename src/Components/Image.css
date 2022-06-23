@@ -1,0 +1,12 @@
+.image {
+  background-color: #5d6266;
+  height: 100%;
+}
+
+.image__circle {
+  border-radius: 50%;
+}
+
+.image__roundSquare {
+  border-radius: 2rem;
+}
