@@ -6,9 +6,9 @@ export interface IStates {
 
 export const initialStates: IStates = {
   user: null,
-  searchInput: "",
-  isSidebarOpen: false
-}
+  searchInput: '',
+  isSidebarOpen: false,
+};
 
 export type StateContextType = {
   states: IStates;
