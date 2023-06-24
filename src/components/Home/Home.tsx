@@ -1,12 +1,12 @@
 import ProfileCard from './ProfileCard/ProfileCard';
-import './Home.css'
+import './Home.css';
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className="home">
       <ProfileCard />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -1,7 +1,6 @@
 import ProfileAvatar from './ProfileAvatar/ProfileAvatar';
 import SocialMediaButtons from './SocialMediaButtons/SocialMediaButtons';
-import './ProfileCard.css'
-
+import './ProfileCard.css';
 
 const ProfileCard = () => {
   return (
