@@ -1,13 +1,15 @@
-import ProfileBadge from './profileBadge/profileBadge';
-import SocialMediaButtons from './socialMediaButtons/socialMediaButtons';
+import ProfileAvatar from './ProfileAvatar/ProfileAvatar';
+import SocialMediaButtons from './SocialMediaButtons/SocialMediaButtons';
+import './ProfileCard.css'
 
-const profileCard = () => {
+
+const ProfileCard = () => {
   return (
     <div className="profileCard">
-      <ProfileBadge />
+      <ProfileAvatar />
       <SocialMediaButtons />
     </div>
   );
 };
 
-export default profileCard;
+export default ProfileCard;

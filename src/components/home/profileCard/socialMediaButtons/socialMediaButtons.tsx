@@ -1,6 +1,6 @@
-import SocialMediaButton from './socialMediaButton/socialMediaButton';
+import SocialMediaButton from './SocialMediaButton/SocialMediaButton';
 
-const socialMediaButtons = () => {
+const SocialMediaButtons = () => {
   return (
     <div className="socialMediaButtons">
       <SocialMediaButton />
@@ -11,4 +11,4 @@ const socialMediaButtons = () => {
   );
 };
 
-export default socialMediaButtons;
+export default SocialMediaButtons;

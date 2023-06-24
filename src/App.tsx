@@ -1,9 +1,10 @@
-import ProfileCard from './components/home/profileCard/profileCard';
+import Home from './components/home/home';
+import './App.css'
 
 const App = () => {
   return (
     <div className="app">
-      <ProfileCard />
+      <Home/>
     </div>
   );
 };

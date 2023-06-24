@@ -1,5 +1,5 @@
-const socialMediaButton = () => {
+const SocialMediaButton = () => {
   return <div className="socialMediaButton">socialMediaButton</div>;
 };
 
-export default socialMediaButton;
+export default SocialMediaButton;
